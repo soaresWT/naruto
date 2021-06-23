@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Naruto</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="https://pt.wikipedia.org/wiki/Naruto#Naruto_Shippuden" ><img id="lo" class="logo" src="assets/logo.png"></a>
+            <ul>
+                <li> <a href="#"> home</a></li>
+                <li> <a href="#">menu</a></li>
+                <li> <a href="#">teste</a></li>
+                <li> <a href="#">contato</a></li>
+            </ul>
+        </header>
+        
+        <div class="content">
+            <div class="textbox">
+                <h2>Saiba um pouco mais sobre<br>ele, <p id="nome"> Naruto</p></h2>
+                <p>Tenha mais informações nesse link, escolhido especialmente
+                    para você.
+                </p>
+                <a href="narutoHis.html" id="bt">Leia mais</a>
+               </div>
+               <div class="imgBox">
+                <img id="n1" src="assets/naruto.png" class="starbucks" alt="">
+            </div>
+        </div>
+      
+        <ul class="thumb">
+            <li>
+                <audio src="assets/datebayo.mp3" id="audio1"></audio>
+                <audio src="assets/music.mp3" id="audio2"></audio>
+                <img class="ic"  src="assets/naruto.png" onclick="imgSlider('assets/naruto.png'); changeColor('orange');nameTex('Naruto')" >
+            </li>
+            <li>
+                <img class="ic"  src="assets/sasuke.png" onclick="imgSlider('assets/sasuke.png'); changeColor('blue');nameTex('Sasuke')">
+            </li>
+            <li>
+                <img class="ic"  src="assets/sakura.png" onclick="imgSlider('assets/sakura.png'); changeColor('green');nameTex('Kakashi')">
+            </li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="assets/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="assets/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="assets/twitter.png" alt=""></a></li>
+        </ul>
+
+    </section>
+    <script>
+        const audio = document.querySelector('#audio2')
+        
+    </script>
+    
+
+
+<script src="main.js"></script>
+</body>
+</html>
